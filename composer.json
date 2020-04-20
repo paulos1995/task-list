@@ -1,0 +1,17 @@
+{
+    "require": {
+        "nikic/fast-route": "^1.2",
+        "ext-mysql": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "controller/",
+            "Model\\" : "model/",
+            "Core\\" : "core/",
+            "Libs\\" : "libs/"
+        }
+    }
+}
+
+
